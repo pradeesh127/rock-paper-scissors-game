@@ -1,0 +1,70 @@
+#Rock,#paper,#scissor{
+
+color: white;
+padding: 14px 30px;
+border-radius: 4px;
+font-size: 18px;
+background-color: black;
+}
+.boxes{
+              display: flex;
+              /* justify-content: center; */
+              align-items: center;
+              flex-direction: column;
+              width: 300px;
+              height: 200px;
+              background-color: black;
+              padding: 30px 16px;
+              border-radius: 4px;
+              
+}
+.container{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              padding:100px;
+}
+.container-fulid{
+              height: 100vh;
+              color: #6c757d;
+}
+.p-score-div,.c-score-div{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+        
+              /* align-items: center; */
+              flex-direction: row;
+              border: 1px solid white;
+              height: 1.5rem;
+              padding-bottom: 5px;
+              background-color: aliceblue;
+}
+i{
+              font-size:60px ;
+              padding-top: 20px;   
+}
+.txt-div{
+color: black;
+}
+main h4{
+              color: white;
+              margin-bottom: 2rem;
+}
+.btns-box{
+      display: flex;     
+}
+.btns-box button{
+              margin: 0 10px;
+}
+main{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+
+}
+.fa-hand-scissors{
+              /* transform: rotate(90deg); */
+
+}
